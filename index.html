@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <section id="mainContainer" class="main-container">
+        <div class="header position-relative">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="header-border-bottom">
+                            <h2>Social Media Dashboard</h2>
+                            <p>Total Followers: 23,004</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="d-flex align-items-center justify-content-between justify-content-lg-end">
+                            <small>Dark Mode</small>
+                            <span class="switch">
+                              <input type="checkbox" id="switch-round">
+                              <label for="switch-round"></label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-site-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card-box text-center facebook">
+                            <div class="user-name">
+                                <img src="images/icon-facebook.svg" alt="">
+                                <small>@nathanf</small>
+                            </div>       
+                            <div class="user-count my-4">
+                                <h1>1987</h1>
+                                <p>Followers</p>
+                            </div>          
+                            <div class="latest-update">
+                                <img src="images/icon-up.svg" alt="">
+                                <small>12 Today</small>
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card-box text-center twitter">
+                            <div class="user-name">
+                                <img src="images/icon-twitter.svg" alt="">
+                                <small>@nathanf</small>
+                            </div>       
+                            <div class="user-count my-4">
+                                <h1>1044</h1>
+                                <p>Followers</p>
+                            </div>          
+                            <div class="latest-update">
+                                <img src="images/icon-up.svg" alt="">
+                                <small>99 Today</small>
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
+                        <div class="card-box text-center instagram">
+                            <div class="user-name">
+                                <img src="images/icon-instagram.svg" alt="">
+                                <small>@earlnathanf</small>
+                            </div>       
+                            <div class="user-count my-4">
+                                <h1>11k</h1>
+                                <p>Followers</p>
+                            </div>          
+                            <div class="latest-update">
+                                <img src="images/icon-up.svg" alt="">
+                                <small>1099 Today</small>
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card-box text-center youtube">
+                            <div class="user-name">
+                                <img src="images/icon-youtube.svg" alt="">
+                                <small>Nathan F.</small>
+                            </div>       
+                            <div class="user-count my-4">
+                                <h1>8239</h1>
+                                <p>subscribers</p>
+                            </div>          
+                            <div class="latest-update red-color">
+                                <img src="images/icon-down.svg" alt="">
+                                <small>144 Today</small>
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overview-container mt-5">
+            <div class="container">
+
+                <div class="sec-title mb-4">
+                    <h4>Overview - Today</h4>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <div class="card-box">
+                            <div class="user-name d-flex align-items-center justify-content-between">
+                                <small>Page Views</small>
+                                <img src="images/icon-facebook.svg" alt="">
+                            </div>       
+                            <div class="user-count mt-4 d-flex align-items-center justify-content-between">
+                                <h1>87</h1>
+                                <div class="latest-update">
+                                    <img src="images/icon-up.svg" alt="">
+                                    <small>3%</small>
+                                </div>          
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <div class="card-box">
+                            <div class="user-name d-flex align-items-center justify-content-between">
+                                <small>Likes</small>
+                                <img src="images/icon-facebook.svg" alt="">
+                            </div>       
+                            <div class="user-count mt-4 d-flex align-items-center justify-content-between">
+                                <h1>52</h1>
+                                <div class="latest-update red-color">
+                                    <img src="images/icon-down.svg" alt="">
+                                    <small>2%</small>
+                                </div>          
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <div class="card-box">
+                            <div class="user-name d-flex align-items-center justify-content-between">
+                                <small>Likes</small>
+                                <img src="images/icon-instagram.svg" alt="">
+                            </div>       
+                            <div class="user-count mt-4 d-flex align-items-center justify-content-between">
+                                <h1>5462</h1>
+                                <div class="latest-update">
+                                    <img src="images/icon-up.svg" alt="">
+                                    <small>2257%</small>
+                                </div>          
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <div class="card-box">
+                            <div class="user-name d-flex align-items-center justify-content-between">
+                                <small>Profile Views</small>
+                                <img src="images/icon-instagram.svg" alt="">
+                            </div>       
+                            <div class="user-count mt-4 d-flex align-items-center justify-content-between">
+                                <h1>87</h1>
+                                <div class="latest-update">
+                                    <img src="images/icon-up.svg" alt="">
+                                    <small>1375%</small>
+                                </div>          
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card-box">
+                            <div class="user-name d-flex align-items-center justify-content-between">
+                                <small>Tetweets</small>
+                                <img src="images/icon-twitter.svg" alt="">
+                            </div>       
+                            <div class="user-count mt-4 d-flex align-items-center justify-content-between">
+                                <h1>117</h1>
+                                <div class="latest-update">
+                                    <img src="images/icon-up.svg" alt="">
+                                    <small>303%</small>
+                                </div>          
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card-box">
+                            <div class="user-name d-flex align-items-center justify-content-between">
+                                <small>Likes</small>
+                                <img src="images/icon-twitter.svg" alt="">
+                            </div>       
+                            <div class="user-count mt-4 d-flex align-items-center justify-content-between">
+                                <h1>507</h1>
+                                <div class="latest-update">
+                                    <img src="images/icon-up.svg" alt="">
+                                    <small>553%</small>
+                                </div>          
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card-box">
+                            <div class="user-name d-flex align-items-center justify-content-between">
+                                <small>Likes</small>
+                                <img src="images/icon-youtube.svg" alt="">
+                            </div>       
+                            <div class="user-count mt-4 d-flex align-items-center justify-content-between">
+                                <h1>107</h1>
+                                <div class="latest-update red-color">
+                                    <img src="images/icon-down.svg" alt="">
+                                    <small>19%</small>
+                                </div>          
+                            </div>          
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card-box">
+                            <div class="user-name d-flex align-items-center justify-content-between">
+                                <small>Total Views</small>
+                                <img src="images/icon-youtube.svg" alt="">
+                            </div>       
+                            <div class="user-count mt-4 d-flex align-items-center justify-content-between">
+                                <h1>107</h1>
+                                <div class="latest-update red-color">
+                                    <img src="images/icon-down.svg" alt="">
+                                    <small>19%</small>
+                                </div>          
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+
+        var switchBtn = document.getElementById("switch-round");
+            
+        switchBtn.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+        }
+    
+
+    </script>
+
+</body>
+</html>
